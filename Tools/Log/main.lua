@@ -1,15 +1,33 @@
--- Made for Polytoria 1.x
--- by Vran
--- https://polytoria.com/u/Vran
+--[[ 
+   Made for Polytoria 1.x
+   by Vran
+   https://polytoria.com/u/Vran
 
------ Log v1.1
--- A simple utility script for better outputs. Supports tables
+------ Log v1.1 ------
+   A simple utility script for better outputs. Supports tables
 
---              MM/DD/YYYY
+            >>  MM/DD/YYYY
 ----- CHANGELOG (3/4/2026)
--- Any instance will now display its proper full name (i.e., their ancestry)
--- Empty tables no longer create new lines for visual clarity
--- .yellow() will no longer output a bolded text
+- Any instance will now display its proper full name (i.e., their ancestry)
+- Empty tables no longer create new lines for visual clarity
+- .yellow() will no longer output a bolded text
+
+--      FUNCTIONS     --
+- Prints in bold orange
+    log.warn(...)
+
+- Prints in bold red (Usecase: An error without stoping the script)
+    log.crit(...)
+
+- Prints in bold purple
+    log.important(...)
+
+- Print but in sickass yellow
+    log.yellow(...)
+
+- Normal print
+    log.info(...)
+--]]
 
 
 
